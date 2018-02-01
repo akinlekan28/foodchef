@@ -17,11 +17,9 @@
 
 .overlay-test {
     position: absolute;
-    /* top: 35px; */
     bottom: 30px;
     width: 100%;
     color: #ffffff;
-    /* padding-left: 10px; */
     text-align: center;
 }
 
