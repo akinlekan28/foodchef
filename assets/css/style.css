@@ -1,0 +1,577 @@
+html {
+    font-family: Verdana, sans-serif;
+}
+
+.logo {
+    border: solid 2px;
+    font-weight: 200;
+    padding: 7px;
+}
+
+#food-color {
+    background-color: #F25254;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 8px;
+    margin-left: -6px;
+}
+
+body {
+    margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    /* text-align: center; */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a.mod {
+    float: right;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    /* background-color: #4CAF50; */
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.base-color {
+    color: #8BBD02;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 2px solid #ffffff;
+}
+
+.card-1 {
+    background-color: #2DDE98;
+    padding: 37px;
+}
+
+.card-3 {
+    background-color: #03A9F5;
+    padding: 37px;
+}
+
+.card-5 {
+    background-color: #FF9801;
+    padding: 37px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sub-img {
+    width: 100%;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    flex-grow: 1;
+    width: 50%;
+}
+
+.team-border {
+    width: 100%;
+    border: 5px solid rgb(172, 167, 167);
+    border-left-color: #F67677;
+    border-top-color: #F67677;
+}
+
+.food {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.food-img {
+    width: 100%
+}
+
+.food-item {
+    flex-grow: 1;
+    width: 50%;
+}
+
+
+.test-img {
+    background-image: url('../images/stats.jpg');
+    width: 100%;
+    height: 300px;
+    background-position: center;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.test-text {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #8BBD02;
+}
+
+.address {
+    text-align: center;
+}
+
+.form {
+    background-image: url('../images/contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding: auto;
+    /* margin-top: 100px; */
+}
+
+input,
+textarea {
+    background-color: transparent;
+    color: #ffffff;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #ffffff;
+    width: 78%;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F45A5A;
+}
+
+.email-sub {
+    text-align: center;
+    background-color: rgb(252, 106, 106);
+    opacity: 0.9;
+    height: 35px;
+    width: 190px;
+    margin: auto;
+    border: 1px solid #ffffff;
+}
+
+.inline-display {
+    display: inline-block;
+}
+
+.btn-sub {
+    border: solid 1px #ffffff !important;
+    height: 35px;
+}
+
+.socials {
+    background-color: #292929;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+::-ms-input-placeholder {
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card {
+        flex-grow: 1;
+        width: 33.33%;
+    }
+    .team-member {
+        flex-grow: 1;
+        width: 50%;
+        padding: 12px;
+    }
+    .team-border {
+        width: 100%;
+        border: 5px solid rgb(172, 167, 167);
+        border-left-color: #F67677;
+        border-top-color: #F67677;
+        padding: 4px;
+    }
+    .topnav {
+        width: 100% !important;
+    }
+    #myTopnav a {
+        font-size: 10px;
+    }
+    .overlay-text {
+        position: absolute;
+        top: 40px !important;
+        bottom: 10px;
+        width: 100%;
+        color: #ffffff;
+        /* margin-left: 20px !important; */
+        font-size: 25px;
+    }
+    nav {
+        width: 100% !important;
+    }
+    .dot-mob {
+        margin-top: -25px;
+        text-align: center;
+    }
+    .card {
+        flex-grow: 1;
+        width: 33.33%;
+    }
+    .card-1 {
+        background-color: #2DDE98;
+        padding: 0;
+    }
+    .card-3 {
+        background-color: #03A9F5;
+        padding: 0;
+    }
+    .card-5 {
+        background-color: #FF9801;
+        padding: 0;
+    }
+    .margin-top-p {
+        margin-top: 70px;
+    }
+    .card-4-img {
+        width: 100%;
+        height: 300px;
+    }
+    .subcontent {
+        flex-grow: 1;
+        width: 50%;
+    }
+    .chef-img {
+        width: 100%;
+        height: 350px;
+    }
+    .subcontent-1 {
+        margin-top: 60px;
+    }
+    div.service-2,
+    div.service-3 {
+        margin-top: 50px;
+    }
+    .subcontent-3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sub-img {
+        flex-grow: 1;
+        width: 50%;
+        height: 240px;
+    }
+    .team-member {
+        width: 20%;
+    }
+    .food-item {
+        flex-grow: 1;
+        width: 33.33%;
+        border: 2px solid #ffffff;
+    }
+    .footer {
+        height: 250px !important;
+    }
+    .subscribe {
+        flex-grow: 1;
+        width: 50%;
+    }
+    .footer-margin {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .social-links {
+        flex-grow: 1;
+        width: 50%;
+        font-size: 14px;
+    }
+    .reverse {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about-team {
+        margin-left: 190px;
+        margin-right: 190px;
+    }
+    .card {
+        flex-grow: 1;
+        width: 30%;
+    }
+    .card-1 {
+        background-color: #2DDE98;
+        padding: 0;
+    }
+    .card-3 {
+        background-color: #03A9F5;
+        padding: 0;
+    }
+    .card-5 {
+        background-color: #FF9801;
+        padding: 0;
+    }
+    .margin-top-p {
+        margin-top: 70px;
+    }
+    .topnav {
+        width: 100% !important;
+        height: 53px;
+    }
+    #myTopnav a {
+        font-size: 15px;
+    }
+    .overlay-text {
+        position: absolute;
+        top: 210px !important;
+        bottom: 10px;
+        width: 100%;
+        color: #ffffff;
+        font-size: 35px;
+    }
+    .overlay-para {
+        font-size: 20px;
+    }
+    nav {
+        width: 100% !important;
+    }
+    .dot-mob {
+        margin-top: -60px;
+        text-align: center;
+    }
+    .about-team {
+        margin-top: 60px;
+    }
+    .team-member {
+        flex-grow: 1;
+        width: 50%;
+        padding: 12px;
+    }
+    .team-border {
+        width: 100%;
+        border: 5px solid rgb(172, 167, 167);
+        border-left-color: #F67677;
+        border-top-color: #F67677;
+        padding: 4px;
+    }
+    .card-4-img {
+        width: 100%;
+        height: 300px;
+    }
+    .subcontent {
+        flex-grow: 1;
+        width: 33.33%;
+    }
+    .chef-img {
+        width: 100%;
+        height: 380px;
+    }
+    .subcontent-1 {
+        margin-top: 60px;
+    }
+    div.service-2,
+    div.service-3 {
+        margin-top: 50px;
+    }
+    .subcontent-3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sub-img {
+        flex-grow: 1;
+        width: 100%;
+    }
+    .lemonade {
+        height: 175px;
+    }
+    .team-member {
+        width: 20%;
+    }
+    .food-item {
+        flex-grow: 1;
+        width: 20%;
+        border: 2px solid #ffffff;
+    }
+    /* .testimonial-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fade {
+        flex-grow: 1;
+        width: 50%;
+    } */
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-info {
+        flex-grow: 1;
+        width: 50%;
+    }
+    .form {
+        text-align: center;
+        height: 450px;
+    }
+    .refix {
+        margin-top: 50px;
+        margin-left: 135px !important;
+    }
+    .refix-two {
+        margin-left: 309px !important;
+        font-size: 11px;
+    }
+    .refix-three {
+        margin-left: 100px !important;
+        font-size: 11px;
+    }
+    .refix-four {
+        margin-left: 91px !important;
+        font-size: 11px;
+    }
+    .footer {
+        height: 250px !important;
+    }
+    .email-sub {
+        width: 305px;
+    }
+    .refix-sub {
+        margin-bottom: 40px;
+    }
+    .btn-submit {
+        margin-left: 423px;
+    }
+    .subscribe {
+        flex-grow: 1;
+        width: 50%;
+    }
+    .footer-margin {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .socials {
+        margin: auto;
+    }
+    .social-links {
+        flex-grow: 1;
+        width: 50%;
+        font-size: 14px;
+    }
+    .reverse {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+        border: solid 1px;
+    }
+    .overlay-text {
+        position: absolute;
+        top: 45px;
+        bottom: 20px;
+        width: 100%;
+        color: #ffffff;
+        margin: 10px;
+    }
+    .card-2-img,
+    .card-3-img,
+    .card-4-img {
+        width: 100%;
+    }
+    .team-member {
+        flex-grow: 1;
+        width: 44%;
+        padding: 8px;
+    }
+    .team-border {
+        width: 100%;
+        border: 4px solid rgb(172, 167, 167);
+        border-left-color: #F67677;
+        border-top-color: #F67677;
+        padding: 3px;
+    }
+    .copy {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: 13px;
+    }
+}
