@@ -441,6 +441,9 @@ footer {
     .lemonade {
         height: 175px;
     }
+    .burger{
+        height: 200px;
+    }
     .team-member {
         width: 20%;
     }
